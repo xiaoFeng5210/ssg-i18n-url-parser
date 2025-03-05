@@ -1,0 +1,44 @@
+{
+  "name": "ssg-i18n-url-parser",
+  "version": "0.0.1",
+  "type": "module",
+  "main": "lib/bundle.cjs.js",
+  "module": "lib/bundle.esm.js",
+  "types": "lib/index.d.ts",
+  "files": [
+    "lib",
+    "README.md",
+    "LICENSE"
+  ],
+  "description": "提供国际化url解析功能",
+  "scripts": {
+    "dev": "rollup -c -w",
+    "build": "rollup -c",
+    "test": "vitest",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix"
+  },
+  "bugs": {
+    "url": "https://github.com/xiaoFeng5210/ssg-i18n-url-parser/issues"
+  },
+  "homepage": "https://github.com/xiaoFeng5210/ssg-i18n-url-parser",
+  "keywords": [
+    "国际化",
+    "url",
+    "解析",
+    "国际化url解析"
+  ],
+  "author": "xiaoFeng5210",
+  "license": "ISC",
+  "devDependencies": {
+    "@antfu/eslint-config": "^2.21.1",
+    "@rollup/plugin-commonjs": "^26.0.1",
+    "@rollup/plugin-node-resolve": "^15.2.3",
+    "@rollup/plugin-typescript": "^11.1.6",
+    "eslint": "^9.5.0",
+    "rollup": "^4.18.0",
+    "rollup-plugin-terser": "^7.0.2",
+    "typescript": "^5.5.2",
+    "vitest": "^1.6.0"
+  }
+}
